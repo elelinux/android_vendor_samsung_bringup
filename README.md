@@ -1,2 +1,2 @@
- Proprietary vendor files for Samsung Galaxy S III , GT-i9300 " CM10.1 - CM10.2 "
+ Proprietary vendor files for GT-i9300 Samsung Galaxy S III " CM10.1 - CM10.2 "
 
