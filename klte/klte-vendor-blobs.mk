@@ -37,29 +37,75 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/klte/proprietary/cameradata/datapattern_420sp.yuv:system/cameradata/datapattern_420sp.yuv \
 	vendor/samsung/klte/proprietary/cameradata/datapattern_front_420sp.yuv:system/cameradata/datapattern_front_420sp.yuv \
 	vendor/samsung/klte/proprietary/etc/Bluetooth_cal.acdb:system/etc/Bluetooth_cal.acdb \
+	vendor/samsung/klte/proprietary/etc/clatd.conf:system/etc/clatd.conf \
+	vendor/samsung/klte/proprietary/etc/ethertypes:system/etc/ethertypes \
 	vendor/samsung/klte/proprietary/etc/C16QL_s5k2p2xx_module_info.xml:system/etc/C16QL_s5k2p2xx_module_info.xml \
 	vendor/samsung/klte/proprietary/etc/F16QL_s5k2p2xx_module_info.xml:system/etc/F16QL_s5k2p2xx_module_info.xml \
 	vendor/samsung/klte/proprietary/etc/F16QS_imx240_module_info.xml:system/etc/F16QS_imx240_module_info.xml \
+	vendor/samsung/klte/proprietary/etc/firmware/a225p5_pm4.fw:system/etc/firmware/a225p5_pm4.fw \
+	vendor/samsung/klte/proprietary/etc/firmware/a225_pfp.fw:system/etc/firmware/a225_pfp.fw \
+	vendor/samsung/klte/proprietary/etc/firmware/a225_pm4.fw:system/etc/firmware/a225_pm4.fw \
+	vendor/samsung/klte/proprietary/etc/firmware/a300_pfp.fw:system/etc/firmware/a300_pfp.fw \
+	vendor/samsung/klte/proprietary/etc/firmware/a300_pm4.fw:system/etc/firmware/a300_pm4.fw \
 	vendor/samsung/klte/proprietary/etc/firmware/a330_pfp.fw:system/etc/firmware/a330_pfp.fw \
 	vendor/samsung/klte/proprietary/etc/firmware/a330_pm4.fw:system/etc/firmware/a330_pm4.fw \
+	vendor/samsung/klte/proprietary/etc/firmware/audience-es705-fw.bin:system/etc/firmware/audience-es705-fw.bin \
+	vendor/samsung/klte/proprietary/etc/firmware/audience-es705-vs.bin:system/etc/firmware/audience-es705-vs.bin \
 	vendor/samsung/klte/proprietary/etc/firmware/cpp_firmware_v1_1_1.fw:system/etc/firmware/cpp_firmware_v1_1_1.fw \
 	vendor/samsung/klte/proprietary/etc/firmware/cpp_firmware_v1_1_6.fw:system/etc/firmware/cpp_firmware_v1_1_6.fw \
 	vendor/samsung/klte/proprietary/etc/firmware/cpp_firmware_v1_2_0.fw:system/etc/firmware/cpp_firmware_v1_2_0.fw \
+	vendor/samsung/klte/proprietary/etc/firmware/higalaxy_en_us_am.bin:system/etc/firmware/higalaxy_en_us_am.bin \
+	vendor/samsung/klte/proprietary/etc/firmware/higalaxy_en_us_gram6.bin:system/etc/firmware/higalaxy_en_us_gram6.bin \
+	vendor/samsung/klte/proprietary/etc/firmware/leia_pfp_470.fw:system/etc/firmware/leia_pfp_470.fw \
+	vendor/samsung/klte/proprietary/etc/firmware/leia_pm4_470.fw:system/etc/firmware/leia_pm4_470.fw \
+	vendor/samsung/klte/proprietary/etc/firmware/wcd9320/wcd9320_anc.bin:system/etc/firmware/wcd9320/wcd9320_anc.bin \
+	vendor/samsung/klte/proprietary/etc/firmware/wcd9320/wcd9320_mad_audio.bin:system/etc/firmware/wcd9320/wcd9320_mad_audio.bin \
+	vendor/samsung/klte/proprietary/etc/firmware/wcd9320/wcd9320_mbhc.bin:system/etc/firmware/wcd9320/wcd9320_mbhc.bin \
+	vendor/samsung/klte/proprietary/etc/flp.conf:system/etc/flp.conf \
 	vendor/samsung/klte/proprietary/etc/General_cal.acdb:system/etc/General_cal.acdb \
 	vendor/samsung/klte/proprietary/etc/Global_cal.acdb:system/etc/Global_cal.acdb \
+	vendor/samsung/klte/proprietary/etc/gps.conf:system/etc/gps.conf \
 	vendor/samsung/klte/proprietary/etc/Handset_cal.acdb:system/etc/Handset_cal.acdb \
 	vendor/samsung/klte/proprietary/etc/Hdmi_cal.acdb:system/etc/Hdmi_cal.acdb \
 	vendor/samsung/klte/proprietary/etc/Headset_cal.acdb:system/etc/Headset_cal.acdb \
-	vendor/samsung/klte/proprietary/etc/permissions/com.qualcomm.location.xml:system/etc/permissions/com.qualcomm.location.xml \
+	vendor/samsung/klte/proprietary/etc/hosts:system/etc/hosts \
+	vendor/samsung/klte/proprietary/etc/nfcee_access.xml:system/etc/nfcee_access.xml \
+	vendor/samsung/klte/proprietary/etc/qosmgr_rules.xml:system/etc/qosmgr_rules.xml \
+	vendor/samsung/klte/proprietary/etc/sapa_feature.xml:system/etc/sapa_feature.xml \
+	vendor/samsung/klte/proprietary/etc/sap.conf:system/etc/sap.conf \
 	vendor/samsung/klte/proprietary/etc/sec_config:system/etc/sec_config \
+	vendor/samsung/klte/proprietary/etc/snsfb.conf:system/etc/snsfb.conf \
+	vendor/samsung/klte/proprietary/etc/somxreg.conf:system/etc/somxreg.conf \
+	vendor/samsung/klte/proprietary/etc/Speaker_cal.acdb:system/etc/Speaker_cal.acdb \
+	vendor/samsung/klte/proprietary/etc/strongswan.conf:system/etc/strongswan.conf \
+	vendor/samsung/klte/proprietary/etc/thermald-8974.conf:system/etc/thermald-8974.conf \
+	vendor/samsung/klte/proprietary/etc/thermal-engine-8974.conf:system/etc/thermal-engine-8974.conf \
+	vendor/samsung/klte/proprietary/etc/vold.fstab:system/etc/vold.fstab \
+	vendor/samsung/klte/proprietary/etc/wfdconfigsink.xml:system/etc/wfdconfigsink.xml \
+	vendor/samsung/klte/proprietary/etc/wfdconfig.xml:system/etc/wfdconfig.xml \
+	vendor/samsung/klte/proprietary/etc/whitelist_appops.xml:system/etc/whitelist_appops.xml \
+	vendor/samsung/klte/proprietary/etc/permissions/com.qualcomm.location.xml:system/etc/permissions/com.qualcomm.location.xml \
 	vendor/samsung/klte/proprietary/etc/Speaker_cal.acdb:system/etc/Speaker_cal.acdb \
 	vendor/samsung/klte/proprietary/etc/wifi/bcmdhd_apsta.bin:system/etc/wifi/bcmdhd_apsta.bin \
+	vendor/samsung/klte/proprietary/etc/wifi/bcmdhd_apsta.bin_a0:system/etc/wifi/bcmdhd_apsta.bin_a0 \
+	vendor/samsung/klte/proprietary/etc/wifi/bcmdhd_ibss.bin:system/etc/wifi/bcmdhd_ibss.bin \
+	vendor/samsung/klte/proprietary/etc/wifi/bcmdhd_ibss.bin_a0:system/etc/wifi/bcmdhd_ibss.bin_a0 \
 	vendor/samsung/klte/proprietary/etc/wifi/bcmdhd_mfg.bin:system/etc/wifi/bcmdhd_mfg.bin \
+	vendor/samsung/klte/proprietary/etc/wifi/bcmdhd_mfg.bin_a0:system/etc/wifi/bcmdhd_mfg.bin_a0 \
 	vendor/samsung/klte/proprietary/etc/wifi/bcmdhd_sta.bin:system/etc/wifi/bcmdhd_sta.bin \
+	vendor/samsung/klte/proprietary/etc/wifi/bcmdhd_sta.bin_a0:system/etc/wifi/bcmdhd_sta.bin_a0 \
+	vendor/samsung/klte/proprietary/etc/wifi/bcmdhd_sta_tput.bin:system/etc/wifi/bcmdhd_sta_tput.bin \
+	vendor/samsung/klte/proprietary/etc/wifi/bcmdhd_sta_tput.bin_a0:system/etc/wifi/bcmdhd_sta_tput.bin_a0 \
 	vendor/samsung/klte/proprietary/etc/wifi/cred.conf:system/etc/wifi/cred.conf \
 	vendor/samsung/klte/proprietary/etc/wifi/nvram_mfg.txt:system/etc/wifi/nvram_mfg.txt \
+	vendor/samsung/klte/proprietary/etc/wifi/nvram_mfg.txt_a0:system/etc/wifi/nvram_mfg.txt_a0 \
+	vendor/samsung/klte/proprietary/etc/wifi/nvram_mfg.txt_muratafem1:system/etc/wifi/nvram_mfg.txt_muratafem1 \
+	vendor/samsung/klte/proprietary/etc/wifi/nvram_mfg.txt_semco3rd:system/etc/wifi/nvram_mfg.txt_semco3rd \
 	vendor/samsung/klte/proprietary/etc/wifi/nvram_net.txt:system/etc/wifi/nvram_net.txt \
-	vendor/samsung/klte/proprietary/etc/wifi/wpa_supplicant.conf:system/etc/wifi/wpa_supplicant.conf \
+	vendor/samsung/klte/proprietary/etc/wifi/nvram_net.txt_a0:system/etc/wifi/nvram_net.txt_a0 \
+	vendor/samsung/klte/proprietary/etc/wifi/nvram_net.txt_muratafem1:system/etc/wifi/nvram_net.txt_muratafem1 \
+	vendor/samsung/klte/proprietary/etc/wifi/nvram_net.txt_semco3rd:system/etc/wifi/nvram_net.txt_semco3rd \
+	vendor/samsung/klte/proprietary/etc/wifi/olsrd.conf:system/etc/wifi/olsrd.conf \
 	vendor/samsung/klte/proprietary/lib/C16QL_libchromatix_s5k2p2xx_golfshot.so:system/lib/C16QL_libchromatix_s5k2p2xx_golfshot.so \
 	vendor/samsung/klte/proprietary/lib/C16QL_libchromatix_s5k2p2xx_hdr_liveshot.so:system/lib/C16QL_libchromatix_s5k2p2xx_hdr_liveshot.so \
 	vendor/samsung/klte/proprietary/lib/C16QL_libchromatix_s5k2p2xx_hdr_preview.so:system/lib/C16QL_libchromatix_s5k2p2xx_hdr_preview.so \
