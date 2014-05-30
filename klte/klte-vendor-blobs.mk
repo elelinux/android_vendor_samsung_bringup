@@ -154,7 +154,10 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/klte/proprietary/lib/libacdbloader.so:system/lib/libacdbloader.so \
 	vendor/samsung/klte/proprietary/lib/libarcsoft_nighthawk.so:system/lib/libarcsoft_nighthawk.so \
 	vendor/samsung/klte/proprietary/lib/libatparser.so:system/lib/libatparser.so \
+<<<<<<< HEAD
 	vendor/samsung/klte/proprietary/lib/libaudiosa.so:lib/libaudiosa.so \
+=======
+>>>>>>> refs/remotes/origin/cm-11.0
 	vendor/samsung/klte/proprietary/lib/libcordon.so:system/lib/libcordon.so \
 	vendor/samsung/klte/proprietary/lib/libdrmdecrypt.so:system/lib/libdrmdecrypt.so \
 	vendor/samsung/klte/proprietary/lib/libfactoryutil.so:system/lib/libfactoryutil.so \
@@ -176,8 +179,11 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/klte/proprietary/lib/libreference-ril.so:system/lib/libreference-ril.so \
 	vendor/samsung/klte/proprietary/lib/libsecnativefeature.so:system/lib/libsecnativefeature.so \
 	vendor/samsung/klte/proprietary/lib/libsecril-client.so:system/lib/libsecril-client.so \
+<<<<<<< HEAD
 	vendor/samsung/klte/proprietary/lib/lib_soundaliveresampler.so:system/lib/lib_soundaliveresampler.so \
 	vendor/samsung/klte/proprietary/lib/libsoundalive.so:system/lib/libsoundalive.so \
+=======
+>>>>>>> refs/remotes/origin/cm-11.0
 	vendor/samsung/klte/proprietary/lib/libstagefright_hdcp.so:system/lib/libstagefright_hdcp.so \
 	vendor/samsung/klte/proprietary/lib/libTsAe.so:system/lib/libTsAe.so \
 	vendor/samsung/klte/proprietary/lib/libTsAf.so:system/lib/libTsAf.so \
@@ -210,7 +216,10 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/klte/proprietary/vendor/lib/F16QS_libchromatix_imx240_common_res3.so:system/vendor/lib/F16QS_libchromatix_imx240_common_res3.so \
 	vendor/samsung/klte/proprietary/vendor/lib/F16QS_libchromatix_imx240_common.so:system/vendor/lib/F16QS_libchromatix_imx240_common.so \
 	vendor/samsung/klte/proprietary/vendor/lib/libacdbloader.so:system/vendor/lib/libacdbloader.so \
+<<<<<<< HEAD
 	vendor/samsung/klte/proprietary/vendor/lib/libacdbmapper.so:system/vendor/lib/libacdbmapper.so \
+=======
+>>>>>>> refs/remotes/origin/cm-11.0
 	vendor/samsung/klte/proprietary/vendor/lib/libacdbrtac.so:system/vendor/lib/libacdbrtac.so \
 	vendor/samsung/klte/proprietary/vendor/lib/libactuator_ak7345_camcorder.so:system/vendor/lib/libactuator_ak7345_camcorder.so \
 	vendor/samsung/klte/proprietary/vendor/lib/libactuator_ak7345_camera.so:system/vendor/lib/libactuator_ak7345_camera.so \
@@ -271,7 +280,6 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/klte/proprietary/vendor/lib/libmmcamera2_wnr_module.so:system/vendor/lib/libmmcamera2_wnr_module.so \
 	vendor/samsung/klte/proprietary/vendor/lib/libmmcamera_faceproc.so:system/vendor/lib/libmmcamera_faceproc.so \
 	vendor/samsung/klte/proprietary/vendor/lib/libmmcamera_image_stab.so:system/vendor/lib/libmmcamera_image_stab.so \
-	vendor/samsung/klte/proprietary/vendor/lib/libmmcamera_imglib_faceproc_adspstub.so:system/vendor/lib/libmmcamera_imglib_faceproc_adspstub.so \
 	vendor/samsung/klte/proprietary/vendor/lib/libmmcamera_imglib.so:system/vendor/lib/libmmcamera_imglib.so \
 	vendor/samsung/klte/proprietary/vendor/lib/libmmcamera_imx240.so:system/vendor/lib/libmmcamera_imx240.so \
 	vendor/samsung/klte/proprietary/vendor/lib/libmmcamera_s5k2p2xx.so:system/vendor/lib/libmmcamera_s5k2p2xx.so \
