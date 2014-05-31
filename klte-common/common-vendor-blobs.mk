@@ -148,7 +148,7 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/klte-common/proprietary/lib/F16QS_libTs_J_Awb.so:system/lib/F16QS_libTs_J_Awb.so \
 	vendor/samsung/klte-common/proprietary/lib/gsm/libril.so:system/lib/gsm/libril.so \
 	vendor/samsung/klte-common/proprietary/lib/gsm/libsec-ril.so:system/lib/gsm/libsec-ril.so \
-	vendor/samsung/klte-common/proprietary/lib/hw/camera.msm8974.so:system/lib/hw/camera.vendor.msm8974.so \
+	vendor/samsung/klte-common/proprietary/lib/hw/camera.msm8974.so:system/lib/hw/camera.msm8974.so \
 	vendor/samsung/klte-common/proprietary/lib/hw/sensorhubs.msm8974.so:system/lib/hw/sensorhubs.msm8974.so \
 	vendor/samsung/klte-common/proprietary/lib/hw/sensors.msm8974.so:system/lib/hw/sensors.msm8974.so \
 	vendor/samsung/klte-common/proprietary/lib/libacdbloader.so:system/lib/libacdbloader.so \
