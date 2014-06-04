@@ -152,6 +152,7 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/klte-common/proprietary/lib/hw/sensorhubs.msm8974.so:system/lib/hw/sensorhubs.msm8974.so \
 	vendor/samsung/klte-common/proprietary/lib/hw/sensors.msm8974.so:system/lib/hw/sensors.msm8974.so \
 	vendor/samsung/klte-common/proprietary/lib/libacdbloader.so:system/lib/libacdbloader.so \
+	vendor/samsung/klte-common/proprietary/lib/libaudio-ril.so:system/lib/libaudio-ril.so \
 	vendor/samsung/klte-common/proprietary/lib/libarcsoft_nighthawk.so:system/lib/libarcsoft_nighthawk.so \
 	vendor/samsung/klte-common/proprietary/lib/libatparser.so:system/lib/libatparser.so \
 	vendor/samsung/klte-common/proprietary/lib/libaudiosa.so:lib/libaudiosa.so \
