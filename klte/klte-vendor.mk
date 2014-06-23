@@ -1,4 +1,4 @@
-# Copyright (C) 2011 The CyanogenMod Project
+# Copyright (C) 2014 The CyanogenMod Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -17,7 +17,6 @@
 # Pick up overlay for features that depend on non-open-source files
 PRODUCT_PACKAGES += \
     libtime_genoff \
-    com.qualcomm.location \
-    PPPreference
+    com.qualcomm.location
 
 $(call inherit-product, vendor/samsung/klte/klte-vendor-blobs.mk)
