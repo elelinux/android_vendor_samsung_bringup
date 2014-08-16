@@ -62,6 +62,8 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/klte/proprietary/etc/firmware/cpp_firmware_v1_1_1.fw:system/etc/firmware/cpp_firmware_v1_1_1.fw \
 	vendor/samsung/klte/proprietary/etc/firmware/cpp_firmware_v1_1_6.fw:system/etc/firmware/cpp_firmware_v1_1_6.fw \
 	vendor/samsung/klte/proprietary/etc/firmware/cpp_firmware_v1_2_0.fw:system/etc/firmware/cpp_firmware_v1_2_0.fw \
+	vendor/samsung/klte/proprietary/etc/firmware/higalaxy_en_us_am.bin:system/etc/firmware/higalaxy_en_us_am.bin \
+	vendor/samsung/klte/proprietary/etc/firmware/higalaxy_en_us_gram6.bin:system/etc/firmware/higalaxy_en_us_gram6.bin \
 	vendor/samsung/klte/proprietary/etc/ftm_test_config:system/etc/ftm_test_config \
 	vendor/samsung/klte/proprietary/etc/General_cal.acdb:system/etc/General_cal.acdb \
 	vendor/samsung/klte/proprietary/etc/Global_cal.acdb:system/etc/Global_cal.acdb \
