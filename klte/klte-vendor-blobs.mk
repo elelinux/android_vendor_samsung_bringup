@@ -40,11 +40,14 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/klte/proprietary/bin/rmt_storage:system/bin/rmt_storage \
 	vendor/samsung/klte/proprietary/bin/thermal-engine:system/bin/thermal-engine \
 	vendor/samsung/klte/proprietary/bin/time_daemon:system/bin/time_daemon \
+    vendor/samsung/klte/proprietary/cameradata/C16QL_Isp0_s5k2p2xx.bin:system/cameradata/C16QL_Isp0_s5k2p2xx.bin \
 	vendor/samsung/klte/proprietary/cameradata/C16QL_Isp1_s5k2p2xx.bin:system/cameradata/C16QL_Isp1_s5k2p2xx.bin \
 	vendor/samsung/klte/proprietary/cameradata/cal_data_LSCmaster.bin:system/cameradata/cal_data_LSCmaster.bin \
 	vendor/samsung/klte/proprietary/cameradata/datapattern_420sp.yuv:system/cameradata/datapattern_420sp.yuv \
 	vendor/samsung/klte/proprietary/cameradata/datapattern_front_420sp.yuv:system/cameradata/datapattern_front_420sp.yuv \
 	vendor/samsung/klte/proprietary/cameradata/F16QL_Isp0_s5k2p2xx.bin:system/cameradata/F16QL_Isp0_s5k2p2xx.bin \
+    vendor/samsung/klte/proprietary/cameradata/F16QL_Isp1_s5k2p2xx.bin:system/cameradata/F16QL_Isp1_s5k2p2xx.bin \
+    vendor/samsung/klte/proprietary/cameradata/F16QS_Isp0_imx240.bin:system/cameradata/F16QS_Isp0_imx240.bin \
 	vendor/samsung/klte/proprietary/cameradata/F16QS_Isp1_imx240.bin:system/cameradata/F16QS_Isp1_imx240.bin \
 	vendor/samsung/klte/proprietary/cameradata/Master0.bin:system/cameradata/Master0.bin \
 	vendor/samsung/klte/proprietary/cameradata/Master1.bin:system/cameradata/Master1.bin \
@@ -323,6 +326,7 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/klte/proprietary/vendor/lib/libmmQSM.so:system/vendor/lib/libmmQSM.so \
 	vendor/samsung/klte/proprietary/vendor/lib/libmmQTA.so:system/vendor/lib/libmmQTA.so \
 	vendor/samsung/klte/proprietary/vendor/lib/libmmrtpdecoder.so:system/vendor/lib/libmmrtpdecoder.so \
+    vendor/samsung/klte/proprietary/vendor/lib/libmmrtpencoder.so:system/vendor/lib/libmmrtpencoder.so \
 	vendor/samsung/klte/proprietary/vendor/lib/libmmwfdinterface.so:system/vendor/lib/libmmwfdinterface.so \
 	vendor/samsung/klte/proprietary/vendor/lib/libmmwfdsinkinterface.so:system/vendor/lib/libmmwfdsinkinterface.so \
 	vendor/samsung/klte/proprietary/vendor/lib/libmmwfdsrcinterface.so:system/vendor/lib/libmmwfdsrcinterface.so \
