@@ -175,13 +175,9 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/klte/proprietary/lib/libcordon.so:system/lib/libcordon.so \
 	vendor/samsung/klte/proprietary/lib/libdrmdecrypt.so:system/lib/libdrmdecrypt.so \
 	vendor/samsung/klte/proprietary/lib/libfactoryutil.so:system/lib/libfactoryutil.so \
-	vendor/samsung/klte/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
 	vendor/samsung/klte/proprietary/lib/libhdcp2.so:system/lib/libhdcp2.so \
 	vendor/samsung/klte/proprietary/lib/libliveframework.so:system/lib/libliveframework.so \
-	vendor/samsung/klte/proprietary/lib/libliveframework.so:system/lib/libliveframework.so \
 	vendor/samsung/klte/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
-	vendor/samsung/klte/proprietary/lib/libloc_core.so:system/lib/libloc_core.so \
-	vendor/samsung/klte/proprietary/lib/libloc_eng.so:system/lib/libloc_eng.so \
 	vendor/samsung/klte/proprietary/lib/libmmcamera2_stats_algorithm.so:system/lib/libmmcamera2_stats_algorithm.so \
 	vendor/samsung/klte/proprietary/lib/libmmcamera_cac3_lib.so:system/lib/libmmcamera_cac3_lib.so \
 	vendor/samsung/klte/proprietary/lib/libmmcamera_fidelix_eeprom.so:system/lib/libmmcamera_fidelix_eeprom.so \
