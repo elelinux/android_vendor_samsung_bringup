@@ -54,6 +54,9 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/klte/proprietary/etc/Bluetooth_cal.acdb:system/etc/Bluetooth_cal.acdb \
 	vendor/samsung/klte/proprietary/etc/C16QL_s5k2p2xx_module_info.xml:system/etc/C16QL_s5k2p2xx_module_info.xml \
 	vendor/samsung/klte/proprietary/etc/Diag_audio.cfg:system/etc/Diag_audio.cfg \
+	vendor/samsung/klte/proprietary/etc/Diag.cfg:system/etc/Diag.cfg \
+	vendor/samsung/klte/proprietary/etc/Diag_gps.cfg:system/etc/Diag_gps.cfg \
+	vendor/samsung/klte/proprietary/etc/Diag_zero.cfg:system/etc/Diag_zero.cfg \
 	vendor/samsung/klte/proprietary/etc/F16QL_s5k2p2xx_module_info.xml:system/etc/F16QL_s5k2p2xx_module_info.xml \
 	vendor/samsung/klte/proprietary/etc/F16QS_imx240_module_info.xml:system/etc/F16QS_imx240_module_info.xml \
 	vendor/samsung/klte/proprietary/etc/firmware/a330_pfp.fw:system/etc/firmware/a330_pfp.fw \
@@ -71,7 +74,9 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/klte/proprietary/etc/Handset_cal.acdb:system/etc/Handset_cal.acdb \
 	vendor/samsung/klte/proprietary/etc/Hdmi_cal.acdb:system/etc/Hdmi_cal.acdb \
 	vendor/samsung/klte/proprietary/etc/Headset_cal.acdb:system/etc/Headset_cal.acdb \
+	vendor/samsung/klte/proprietary/etc/permissions/com.broadcom.nfc.xml:system/etc/permissions/com.broadcom.nfc.xml \
 	vendor/samsung/klte/proprietary/etc/permissions/com.qualcomm.location.xml:system/etc/permissions/com.qualcomm.location.xml \
+	vendor/samsung/klte/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
 	vendor/samsung/klte/proprietary/etc/plmn_delta.bin:system/etc/plmn_delta.bin \
 	vendor/samsung/klte/proprietary/etc/plmn_se13.bin:system/etc/plmn_se13.bin \
 	vendor/samsung/klte/proprietary/etc/sec_config:system/etc/sec_config \
@@ -85,6 +90,8 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/klte/proprietary/etc/wifi/nvram_mfg.txt:system/etc/wifi/nvram_mfg.txt \
 	vendor/samsung/klte/proprietary/etc/wifi/nvram_net.txt:system/etc/wifi/nvram_net.txt \
 	vendor/samsung/klte/proprietary/etc/wifi/wpa_supplicant.conf:system/etc/wifi/wpa_supplicant.conf \
+	vendor/samsung/klte/proprietary/framework/com.broadcom.nfc.jar:system/framework/com.broadcom.nfc.jar \
+	vendor/samsung/klte/proprietary/framework/qcrilhook.jar:system/framework/qcrilhook.jar \
 	vendor/samsung/klte/proprietary/lib/C16QL_libchromatix_s5k2p2xx_default_video.so:system/lib/C16QL_libchromatix_s5k2p2xx_default_video.so \
 	vendor/samsung/klte/proprietary/lib/C16QL_libchromatix_s5k2p2xx_golfshot.so:system/lib/C16QL_libchromatix_s5k2p2xx_golfshot.so \
 	vendor/samsung/klte/proprietary/lib/C16QL_libchromatix_s5k2p2xx_hdr_liveshot.so:system/lib/C16QL_libchromatix_s5k2p2xx_hdr_liveshot.so \
@@ -164,12 +171,11 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/klte/proprietary/lib/F16QS_libTs_J_Awb.so:system/lib/F16QS_libTs_J_Awb.so \
 	vendor/samsung/klte/proprietary/lib/gsm/libril.so:system/lib/gsm/libril.so \
 	vendor/samsung/klte/proprietary/lib/gsm/libsec-ril.so:system/lib/gsm/libsec-ril.so \
-	vendor/samsung/klte/proprietary/lib/hw/camera.vendor.msm8974.so:system/lib/hw/camera.vendor.msm8974.so \
+	vendor/samsung/klte/proprietary/lib/hw/camera.msm8974.so:system/lib/hw/camera.msm8974.so \
 	vendor/samsung/klte/proprietary/lib/hw/flp.default.so:system/lib/hw/flp.default.so \
-	vendor/samsung/klte/proprietary/lib/hw/gsm/nfc_nci.msm8974.so:system/lib/hw/gsm/nfc_nci.msm8974.so \
+	vendor/samsung/klte/proprietary/lib/hw/nfc_nci.MSM8974.so:system/lib/hw/nfc_nci.MSM8974.so \
 	vendor/samsung/klte/proprietary/lib/hw/sensorhubs.msm8974.so:system/lib/hw/sensorhubs.msm8974.so \
 	vendor/samsung/klte/proprietary/lib/hw/sensors.msm8974.so:system/lib/hw/sensors.msm8974.so \
-	vendor/samsung/klte/proprietary/lib/hw/spr/nfc_nci.msm8974.so:system/lib/hw/spr/nfc_nci.msm8974.so \
 	vendor/samsung/klte/proprietary/lib/libarccamera.so:system/lib/libarccamera.so \
 	vendor/samsung/klte/proprietary/lib/libarcsoft_nighthawk.so:system/lib/libarcsoft_nighthawk.so \
 	vendor/samsung/klte/proprietary/lib/libatparser.so:system/lib/libatparser.so \
@@ -212,10 +218,6 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/klte/proprietary/lib/soundfx/libaudiosa_sec.so:system/lib/soundfx/libaudiosa_sec.so \
 	vendor/samsung/klte/proprietary/lib/soundfx/libeffectproxy.so:system/lib/soundfx/libeffectproxy.so \
 	vendor/samsung/klte/proprietary/lib/soundfx/libldnhncr.so:system/lib/soundfx/libldnhncr.so \
-	vendor/samsung/klte/proprietary/vendor/firmware/bcm2079xB4_firmware.ncd:system/vendor/firmware/bcm2079xB4_firmware.ncd \
-	vendor/samsung/klte/proprietary/vendor/firmware/bcm2079xB4_pre_firmware.ncd:system/vendor/firmware/bcm2079xB4_pre_firmware.ncd \
-	vendor/samsung/klte/proprietary/vendor/firmware/bcm2079xB5_firmware.ncd:system/vendor/firmware/bcm2079xB5_firmware.ncd \
-	vendor/samsung/klte/proprietary/vendor/firmware/bcm2079xB5_pre_firmware.ncd:system/vendor/firmware/bcm2079xB5_pre_firmware.ncd \
 	vendor/samsung/klte/proprietary/vendor/firmware/bcm4335.hcd:system/vendor/firmware/bcm4335.hcd \
 	vendor/samsung/klte/proprietary/vendor/firmware/bcm4350.hcd:system/vendor/firmware/bcm4350.hcd \
 	vendor/samsung/klte/proprietary/vendor/firmware/BT_FW_VER_BCM4354_003.001.012.0167.0213_K_LTE_ORC.hcd:system/vendor/firmware/BT_FW_VER_BCM4354_003.001.012.0167.0213_K_LTE_ORC.hcd \
