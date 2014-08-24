@@ -38,6 +38,8 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/klte/proprietary/bin/rfs_access:system/bin/rfs_access \
 	vendor/samsung/klte/proprietary/bin/rild:system/bin/rild \
 	vendor/samsung/klte/proprietary/bin/rmt_storage:system/bin/rmt_storage \
+	vendor/samsung/klte/proprietary/bin/sensorhubservice:system/bin/sensorhubservice \
+	vendor/samsung/klte/proprietary/bin/sensorservice:system/bin/sensorservice \
 	vendor/samsung/klte/proprietary/bin/thermal-engine:system/bin/thermal-engine \
 	vendor/samsung/klte/proprietary/bin/time_daemon:system/bin/time_daemon \
     vendor/samsung/klte/proprietary/cameradata/C16QL_Isp0_s5k2p2xx.bin:system/cameradata/C16QL_Isp0_s5k2p2xx.bin \
@@ -203,6 +205,9 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/klte/proprietary/lib/libreference-ril.so:system/lib/libreference-ril.so \
 	vendor/samsung/klte/proprietary/lib/libsecnativefeature.so:system/lib/libsecnativefeature.so \
 	vendor/samsung/klte/proprietary/lib/libsecril-client.so:system/lib/libsecril-client.so \
+	vendor/samsung/klte/proprietary/lib/libsensorhubservice.so:system/lib/libsensorhubservice.so \
+	vendor/samsung/klte/proprietary/lib/libsensorhub.so:system/lib/libsensorhub.so \
+	vendor/samsung/klte/proprietary/lib/libsensorservice.so:system/lib/libsensorservice.so \
 	vendor/samsung/klte/proprietary/lib/lib_soundaliveresampler.so:system/lib/lib_soundaliveresampler.so \
 	vendor/samsung/klte/proprietary/lib/libsoundalive.so:system/lib/libsoundalive.so \
 	vendor/samsung/klte/proprietary/lib/libstagefright_hdcp.so:system/lib/libstagefright_hdcp.so \
