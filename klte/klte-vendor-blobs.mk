@@ -316,22 +316,8 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/klte/proprietary/vendor/lib/libmmcamera_s5k2p2xx.so:system/vendor/lib/libmmcamera_s5k2p2xx.so \
 	vendor/samsung/klte/proprietary/vendor/lib/libmmcamera_s5k8b1yx.so:system/vendor/lib/libmmcamera_s5k8b1yx.so \
 	vendor/samsung/klte/proprietary/vendor/lib/libmm-color-convertor.so:system/vendor/lib/libmm-color-convertor.so \
-	vendor/samsung/klte/proprietary/vendor/lib/libmm-hdcpmgr.so:system/vendor/lib/libmm-hdcpmgr.so \
-	vendor/samsung/klte/proprietary/vendor/lib/libmmhttpstack.so:system/vendor/lib/libmmhttpstack.so \
-	vendor/samsung/klte/proprietary/vendor/lib/libmmiipstreammmihttp.so:system/vendor/lib/libmmiipstreammmihttp.so \
-	vendor/samsung/klte/proprietary/vendor/lib/libmmipstreamaal.so:system/vendor/lib/libmmipstreamaal.so \
-	vendor/samsung/klte/proprietary/vendor/lib/libmmipstreamnetwork.so:system/vendor/lib/libmmipstreamnetwork.so \
-	vendor/samsung/klte/proprietary/vendor/lib/libmmipstreamsourcehttp.so:system/vendor/lib/libmmipstreamsourcehttp.so \
-	vendor/samsung/klte/proprietary/vendor/lib/libmmipstreamutils.so:system/vendor/lib/libmmipstreamutils.so \
 	vendor/samsung/klte/proprietary/vendor/lib/libmmosal.so:system/vendor/lib/libmmosal.so \
 	vendor/samsung/klte/proprietary/vendor/lib/libmmparser.so:system/vendor/lib/libmmparser.so \
-	vendor/samsung/klte/proprietary/vendor/lib/libmmQSM.so:system/vendor/lib/libmmQSM.so \
-	vendor/samsung/klte/proprietary/vendor/lib/libmmQTA.so:system/vendor/lib/libmmQTA.so \
-	vendor/samsung/klte/proprietary/vendor/lib/libmmrtpdecoder.so:system/vendor/lib/libmmrtpdecoder.so \
-    vendor/samsung/klte/proprietary/vendor/lib/libmmrtpencoder.so:system/vendor/lib/libmmrtpencoder.so \
-	vendor/samsung/klte/proprietary/vendor/lib/libmmwfdinterface.so:system/vendor/lib/libmmwfdinterface.so \
-	vendor/samsung/klte/proprietary/vendor/lib/libmmwfdsinkinterface.so:system/vendor/lib/libmmwfdsinkinterface.so \
-	vendor/samsung/klte/proprietary/vendor/lib/libmmwfdsrcinterface.so:system/vendor/lib/libmmwfdsrcinterface.so \
 	vendor/samsung/klte/proprietary/vendor/lib/liboemcamera.so:system/vendor/lib/liboemcamera.so \
 	vendor/samsung/klte/proprietary/vendor/lib/liboemcrypto.so:system/vendor/lib/liboemcrypto.so \
 	vendor/samsung/klte/proprietary/vendor/lib/libOmxAacDec.so:system/vendor/lib/libOmxAacDec.so \
