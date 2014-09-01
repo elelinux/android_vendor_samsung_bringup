@@ -16,29 +16,18 @@
 
 PRODUCT_COPY_FILES += \
 	vendor/samsung/klte/proprietary/bin/adsprpcd:system/bin/adsprpcd \
-	vendor/samsung/klte/proprietary/bin/at_distributor:system/bin/at_distributor \
-	vendor/samsung/klte/proprietary/bin/bridgemgrd:system/bin/bridgemgrd \
-	vendor/samsung/klte/proprietary/bin/diag_callback_client:system/bin/diag_callback_client \
-	vendor/samsung/klte/proprietary/bin/drmdiagapp:system/bin/drmdiagapp \
-	vendor/samsung/klte/proprietary/bin/ds_fmc_appd:system/bin/ds_fmc_appd \
 	vendor/samsung/klte/proprietary/bin/efsks:system/bin/efsks \
 	vendor/samsung/klte/proprietary/bin/gsiff_daemon:system/bin/gsiff_daemon \
-	vendor/samsung/klte/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
-	vendor/samsung/klte/proprietary/bin/hvdcp:system/bin/hvdcp \
 	vendor/samsung/klte/proprietary/bin/irsc_util:system/bin/irsc_util \
 	vendor/samsung/klte/proprietary/bin/ks:system/bin/ks \
 	vendor/samsung/klte/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
 	vendor/samsung/klte/proprietary/bin/mpdecision:system/bin/mpdecision \
-	vendor/samsung/klte/proprietary/bin/port-bridge:system/bin/port-bridge \
 	vendor/samsung/klte/proprietary/bin/qcks:system/bin/qcks \
-	vendor/samsung/klte/proprietary/bin/qmiproxy:system/bin/qmiproxy \
 	vendor/samsung/klte/proprietary/bin/qmuxd:system/bin/qmuxd \
 	vendor/samsung/klte/proprietary/bin/qseecomd:system/bin/qseecomd \
-	vendor/samsung/klte/proprietary/bin/radish:system/bin/radish \
 	vendor/samsung/klte/proprietary/bin/rfs_access:system/bin/rfs_access \
 	vendor/samsung/klte/proprietary/bin/rild:system/bin/rild \
 	vendor/samsung/klte/proprietary/bin/rmt_storage:system/bin/rmt_storage \
-	vendor/samsung/klte/proprietary/bin/sensorhubservice:system/bin/sensorhubservice \
 	vendor/samsung/klte/proprietary/bin/thermal-engine:system/bin/thermal-engine \
 	vendor/samsung/klte/proprietary/bin/time_daemon:system/bin/time_daemon \
     vendor/samsung/klte/proprietary/cameradata/C16QL_Isp0_s5k2p2xx.bin:system/cameradata/C16QL_Isp0_s5k2p2xx.bin \
@@ -53,13 +42,6 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/klte/proprietary/cameradata/Master0.bin:system/cameradata/Master0.bin \
 	vendor/samsung/klte/proprietary/cameradata/Master1.bin:system/cameradata/Master1.bin \
 	vendor/samsung/klte/proprietary/etc/Bluetooth_cal.acdb:system/etc/Bluetooth_cal.acdb \
-	vendor/samsung/klte/proprietary/etc/C16QL_s5k2p2xx_module_info.xml:system/etc/C16QL_s5k2p2xx_module_info.xml \
-	vendor/samsung/klte/proprietary/etc/Diag_audio.cfg:system/etc/Diag_audio.cfg \
-	vendor/samsung/klte/proprietary/etc/Diag.cfg:system/etc/Diag.cfg \
-	vendor/samsung/klte/proprietary/etc/Diag_gps.cfg:system/etc/Diag_gps.cfg \
-	vendor/samsung/klte/proprietary/etc/Diag_zero.cfg:system/etc/Diag_zero.cfg \
-	vendor/samsung/klte/proprietary/etc/F16QL_s5k2p2xx_module_info.xml:system/etc/F16QL_s5k2p2xx_module_info.xml \
-	vendor/samsung/klte/proprietary/etc/F16QS_imx240_module_info.xml:system/etc/F16QS_imx240_module_info.xml \
 	vendor/samsung/klte/proprietary/etc/firmware/a330_pfp.fw:system/etc/firmware/a330_pfp.fw \
 	vendor/samsung/klte/proprietary/etc/firmware/a330_pm4.fw:system/etc/firmware/a330_pm4.fw \
 	vendor/samsung/klte/proprietary/etc/firmware/audience-es705-fw.bin:system/etc/firmware/audience-es705-fw.bin \
@@ -69,21 +51,14 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/klte/proprietary/etc/firmware/cpp_firmware_v1_2_0.fw:system/etc/firmware/cpp_firmware_v1_2_0.fw \
 	vendor/samsung/klte/proprietary/etc/firmware/higalaxy_en_us_am.bin:system/etc/firmware/higalaxy_en_us_am.bin \
 	vendor/samsung/klte/proprietary/etc/firmware/higalaxy_en_us_gram6.bin:system/etc/firmware/higalaxy_en_us_gram6.bin \
-	vendor/samsung/klte/proprietary/etc/ftm_test_config:system/etc/ftm_test_config \
 	vendor/samsung/klte/proprietary/etc/General_cal.acdb:system/etc/General_cal.acdb \
 	vendor/samsung/klte/proprietary/etc/Global_cal.acdb:system/etc/Global_cal.acdb \
 	vendor/samsung/klte/proprietary/etc/Handset_cal.acdb:system/etc/Handset_cal.acdb \
 	vendor/samsung/klte/proprietary/etc/Hdmi_cal.acdb:system/etc/Hdmi_cal.acdb \
 	vendor/samsung/klte/proprietary/etc/Headset_cal.acdb:system/etc/Headset_cal.acdb \
-	vendor/samsung/klte/proprietary/etc/permissions/com.broadcom.nfc.xml:system/etc/permissions/com.broadcom.nfc.xml \
 	vendor/samsung/klte/proprietary/etc/permissions/com.qualcomm.location.xml:system/etc/permissions/com.qualcomm.location.xml \
-	vendor/samsung/klte/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
-	vendor/samsung/klte/proprietary/etc/plmn_delta.bin:system/etc/plmn_delta.bin \
-	vendor/samsung/klte/proprietary/etc/plmn_se13.bin:system/etc/plmn_se13.bin \
 	vendor/samsung/klte/proprietary/etc/sec_config:system/etc/sec_config \
-	vendor/samsung/klte/proprietary/etc/sensor_def_qcomdev.conf:system/etc/sensor_def_qcomdev.conf \
 	vendor/samsung/klte/proprietary/etc/Speaker_cal.acdb:system/etc/Speaker_cal.acdb \
-	vendor/samsung/klte/proprietary/etc/srm.bin:system/etc/srm.bin \
 	vendor/samsung/klte/proprietary/etc/wifi/bcmdhd_apsta.bin:system/etc/wifi/bcmdhd_apsta.bin \
 	vendor/samsung/klte/proprietary/etc/wifi/bcmdhd_mfg.bin:system/etc/wifi/bcmdhd_mfg.bin \
 	vendor/samsung/klte/proprietary/etc/wifi/bcmdhd_sta.bin:system/etc/wifi/bcmdhd_sta.bin \
@@ -91,8 +66,6 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/klte/proprietary/etc/wifi/nvram_mfg.txt:system/etc/wifi/nvram_mfg.txt \
 	vendor/samsung/klte/proprietary/etc/wifi/nvram_net.txt:system/etc/wifi/nvram_net.txt \
 	vendor/samsung/klte/proprietary/etc/wifi/wpa_supplicant.conf:system/etc/wifi/wpa_supplicant.conf \
-	vendor/samsung/klte/proprietary/framework/com.broadcom.nfc.jar:system/framework/com.broadcom.nfc.jar \
-	vendor/samsung/klte/proprietary/framework/qcrilhook.jar:system/framework/qcrilhook.jar \
 	vendor/samsung/klte/proprietary/lib/C16QL_libchromatix_s5k2p2xx_default_video.so:system/lib/C16QL_libchromatix_s5k2p2xx_default_video.so \
 	vendor/samsung/klte/proprietary/lib/C16QL_libchromatix_s5k2p2xx_golfshot.so:system/lib/C16QL_libchromatix_s5k2p2xx_golfshot.so \
 	vendor/samsung/klte/proprietary/lib/C16QL_libchromatix_s5k2p2xx_hdr_liveshot.so:system/lib/C16QL_libchromatix_s5k2p2xx_hdr_liveshot.so \
@@ -177,15 +150,11 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/klte/proprietary/lib/hw/nfc_nci.MSM8974.so:system/lib/hw/nfc_nci.MSM8974.so \
 	vendor/samsung/klte/proprietary/lib/hw/sensorhubs.msm8974.so:system/lib/hw/sensorhubs.msm8974.so \
 	vendor/samsung/klte/proprietary/lib/hw/sensors.msm8974.so:system/lib/hw/sensors.msm8974.so \
-	vendor/samsung/klte/proprietary/lib/libarccamera.so:system/lib/libarccamera.so \
 	vendor/samsung/klte/proprietary/lib/libarcsoft_nighthawk.so:system/lib/libarcsoft_nighthawk.so \
 	vendor/samsung/klte/proprietary/lib/libatparser.so:system/lib/libatparser.so \
 	vendor/samsung/klte/proprietary/lib/libaudio-ril.so:system/lib/libaudio-ril.so \
 	vendor/samsung/klte/proprietary/lib/libaudiosa.so:system/lib/libaudiosa.so \
-	vendor/samsung/klte/proprietary/lib/libcordon.so:system/lib/libcordon.so \
 	vendor/samsung/klte/proprietary/lib/libdrmdecrypt.so:system/lib/libdrmdecrypt.so \
-	vendor/samsung/klte/proprietary/lib/libfactoryutil.so:system/lib/libfactoryutil.so \
-	vendor/samsung/klte/proprietary/lib/libhdcp2.so:system/lib/libhdcp2.so \
 	vendor/samsung/klte/proprietary/lib/libliveframework.so:system/lib/libliveframework.so \
 	vendor/samsung/klte/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
 	vendor/samsung/klte/proprietary/lib/libmmcamera2_stats_algorithm.so:system/lib/libmmcamera2_stats_algorithm.so \
@@ -197,25 +166,18 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/klte/proprietary/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
 	vendor/samsung/klte/proprietary/lib/libmmqjpeg_codec.so:system/lib/libmmqjpeg_codec.so \
 	vendor/samsung/klte/proprietary/lib/libmysound.so:system/lib/libmysound.so \
-	vendor/samsung/klte/proprietary/lib/libomission_avoidance.so:system/lib/libomission_avoidance.so \
 	vendor/samsung/klte/proprietary/lib/libOmxVdecHevc.so:system/lib/libOmxVdecHevc.so \
 	vendor/samsung/klte/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
 	vendor/samsung/klte/proprietary/lib/libqomx_jpegenc.so:system/lib/libqomx_jpegenc.so \
 	vendor/samsung/klte/proprietary/lib/libreference-ril.so:system/lib/libreference-ril.so \
 	vendor/samsung/klte/proprietary/lib/libsecnativefeature.so:system/lib/libsecnativefeature.so \
 	vendor/samsung/klte/proprietary/lib/libsecril-client.so:system/lib/libsecril-client.so \
-	vendor/samsung/klte/proprietary/lib/libsensorhubservice.so:system/lib/libsensorhubservice.so \
-	vendor/samsung/klte/proprietary/lib/libsensorhub.so:system/lib/libsensorhub.so \
-	vendor/samsung/klte/proprietary/lib/lib_soundaliveresampler.so:system/lib/lib_soundaliveresampler.so \
 	vendor/samsung/klte/proprietary/lib/libsoundalive.so:system/lib/libsoundalive.so \
-	vendor/samsung/klte/proprietary/lib/libstagefright_hdcp.so:system/lib/libstagefright_hdcp.so \
 	vendor/samsung/klte/proprietary/lib/libTsAe.so:system/lib/libTsAe.so \
 	vendor/samsung/klte/proprietary/lib/libTsAf.so:system/lib/libTsAf.so \
 	vendor/samsung/klte/proprietary/lib/libTs_J_Accm.so:system/lib/libTs_J_Accm.so \
 	vendor/samsung/klte/proprietary/lib/libTs_J_Awb.so:system/lib/libTs_J_Awb.so \
 	vendor/samsung/klte/proprietary/lib/libvdis.so:system/lib/libvdis.so \
-	vendor/samsung/klte/proprietary/lib/libwebrtc_audio_coding.so:system/lib/libwebrtc_audio_coding.so \
-	vendor/samsung/klte/proprietary/lib/libwebrtc_audio_preprocessing.so:system/lib/libwebrtc_audio_preprocessing.so \
 	vendor/samsung/klte/proprietary/lib/libwvm.so:system/lib/libwvm.so \
 	vendor/samsung/klte/proprietary/lib/soundfx/libaudioeffectoffload.so:system/lib/soundfx/libaudioeffectoffload.so \
 	vendor/samsung/klte/proprietary/lib/soundfx/libaudiosa_sec.so:system/lib/soundfx/libaudiosa_sec.so \
