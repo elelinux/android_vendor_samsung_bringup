@@ -147,7 +147,6 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/klte/proprietary/lib/gsm/libsec-ril.so:system/lib/gsm/libsec-ril.so \
 	vendor/samsung/klte/proprietary/lib/hw/camera.msm8974.so:system/lib/hw/camera.msm8974.so \
 	vendor/samsung/klte/proprietary/lib/hw/flp.default.so:system/lib/hw/flp.default.so \
-	vendor/samsung/klte/proprietary/lib/hw/nfc_nci.MSM8974.so:system/lib/hw/nfc_nci.MSM8974.so \
 	vendor/samsung/klte/proprietary/lib/hw/sensorhubs.msm8974.so:system/lib/hw/sensorhubs.msm8974.so \
 	vendor/samsung/klte/proprietary/lib/hw/sensors.msm8974.so:system/lib/hw/sensors.msm8974.so \
 	vendor/samsung/klte/proprietary/lib/libarcsoft_nighthawk.so:system/lib/libarcsoft_nighthawk.so \
